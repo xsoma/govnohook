@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{d9575ed4-b3b4-4b35-9715-450fd649126b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{41483e86-f744-4484-a527-99a75fc9ae59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{74483f8d-c1bb-44bf-aef2-72f57f9240bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="valve">
+      <UniqueIdentifier>{0b8ba8d0-6ca4-41b0-af2a-a9575fb25456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="horizon">
+      <UniqueIdentifier>{afab3aa9-a591-4015-baa1-441cf2a7286c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="horizon\memory">
+      <UniqueIdentifier>{0da61017-6a41-4c48-8a51-81e55e0908c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="horizon\win32">
+      <UniqueIdentifier>{63fe72a3-3796-4265-90ac-a6a6f533aa70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\hooked">
+      <UniqueIdentifier>{c19225b9-87db-4485-a546-a3158b8d7757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="valve\core">
+      <UniqueIdentifier>{3bfc70c2-c268-42f3-9903-e6ae45313e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="horizon\core">
+      <UniqueIdentifier>{d8bcae19-60fb-49bd-9683-74354a11b74c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{4f47dc83-0c5c-4c90-8ace-bce5ec86def9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\displacement">
+      <UniqueIdentifier>{adf8f900-81fb-46b8-9476-438ce0f30a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="valve\object">
+      <UniqueIdentifier>{b3bd3363-0705-4107-9ec4-35f9ca95029e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\prediction">
+      <UniqueIdentifier>{ff3e2749-42ad-47b7-92c3-60c89777c02f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\menu">
+      <UniqueIdentifier>{4cc2d6d6-a135-432b-911d-c981f2974f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\movement">
+      <UniqueIdentifier>{30893de0-7593-4e1a-b59d-467657d4e0b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\rage-bot">
+      <UniqueIdentifier>{52aa079b-642e-4c11-95d4-038b619cd42b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\rage-bot\anti-aimbot">
+      <UniqueIdentifier>{37a5b03d-f837-4e53-a7a6-5b869fe980fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\rage-bot\rage-aimbot">
+      <UniqueIdentifier>{9f3bc3ac-e4e0-440e-a140-6db11d8843db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\misc">
+      <UniqueIdentifier>{982959de-563f-4a8c-8acc-2c070678622d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\rage-bot\anti-anti-aim">
+      <UniqueIdentifier>{f288fc6b-aca6-4fd4-9ccb-6f388c5938e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\visuals">
+      <UniqueIdentifier>{497da6d5-8eca-4116-a2c9-af8812723deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\rage-bot\extra">
+      <UniqueIdentifier>{639dee94-3ce0-4627-80d0-a4a478baa147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\rage-bot\lag-compensation">
+      <UniqueIdentifier>{d76421d9-81d4-4272-b7f9-eb18300ac5b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\visuals\models">
+      <UniqueIdentifier>{e516d161-2001-4ed2-9d3c-a5a832b2ff03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\rage-bot\autowall">
+      <UniqueIdentifier>{5c476034-c984-48d9-afde-86ce9e74b6f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\misc\music-player">
+      <UniqueIdentifier>{3ca11f71-d245-46cd-afe4-8abe7ba6dd63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\prop-manager">
+      <UniqueIdentifier>{1f9527f9-0f87-4188-8ba2-8766e26decd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\menu\menu-v2">
+      <UniqueIdentifier>{2596b440-db59-4c92-b74b-94c927b1c960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\menu\menu-v2\gui">
+      <UniqueIdentifier>{3391ea8e-8016-4ae4-a7bc-16825bc73a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\menu\menu-v2\gui\controls">
+      <UniqueIdentifier>{d70dbeed-7a32-429d-a6bc-bcfa5ac059e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\menu\menu-v2\gui\container">
+      <UniqueIdentifier>{7a381163-645c-4fc4-ac8a-dca65dce2c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\menu\menu-v2\input">
+      <UniqueIdentifier>{f31d3854-6c2d-4b9a-b1f1-d64df5b5b8e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\menu\menu-v2\menu">
+      <UniqueIdentifier>{88951108-a8e3-4b13-b527-c19c54e51ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\menu\menu-v2\settings">
+      <UniqueIdentifier>{a298ce18-8279-48c7-868a-3ca4fc0e039e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\visuals\sound">
+      <UniqueIdentifier>{2494cbc3-1aff-4cdc-97be-99132bdc9544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="horizon\threading">
+      <UniqueIdentifier>{2f251372-5664-4384-8655-ed42b2bc4600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\hooked\server debugging">
+      <UniqueIdentifier>{3f59b5a9-50e4-4c9a-a212-39896a4a2b89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\visuals\grenades">
+      <UniqueIdentifier>{dcd30636-3d7e-45ae-989f-f766ca881a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\rage-bot\rage-aimbot\knife_aimbot">
+      <UniqueIdentifier>{b8419b12-ec79-431a-ac07-302434fc8e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\visuals\precipitation">
+      <UniqueIdentifier>{3a63a686-4b4c-4813-9c36-e63002ac9d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\visuals\dx9render">
+      <UniqueIdentifier>{b133e837-374e-4e28-82eb-8dad7d5a4218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\visuals\dx9render\menu">
+      <UniqueIdentifier>{9b8722a8-6bae-4161-8701-fc73913d5511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\imgui_extended">
+      <UniqueIdentifier>{175f754f-4dad-4c4b-be2c-81cca2ee223f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\legit-aimbot">
+      <UniqueIdentifier>{492fb937-9c37-43e0-b947-4791798e1f4e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="menu\setup\setup.cpp">
+      <Filter>engine\menu\menu-v2\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="threading\packed_heap.cpp">
+      <Filter>horizon\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="threading\semaphores.cpp">
+      <Filter>horizon\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="threading\shared_mutex.cpp">
+      <Filter>horizon\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="threading\threading.cpp">
+      <Filter>horizon\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="threading\atomic_lock.cpp">
+      <Filter>horizon\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="threading\mutex.cpp">
+      <Filter>horizon\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="imgui\imgui_widgets.cpp" />
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="minhook\buffer.c" />
+    <ClCompile Include="minhook\hook.c" />
+    <ClCompile Include="minhook\trampoline.c" />
+    <ClCompile Include="minhook\hde\hde32.c" />
+    <ClCompile Include="minhook\hde\hde64.c" />
+    <ClCompile Include="core\configs\configs.cpp" />
+    <ClCompile Include="core\hooks\createmove.cpp" />
+    <ClCompile Include="core\hooks\overrideview.cpp" />
+    <ClCompile Include="core\hooks\prediction_hooks.cpp" />
+    <ClCompile Include="core\hooks\server_lag_comp.cpp" />
+    <ClCompile Include="core\main.cpp" />
+    <ClCompile Include="core\source.cpp" />
+    <ClCompile Include="sdk\math\math.cpp" />
+    <ClCompile Include="sdk\matrix\matrix.cpp" />
+    <ClCompile Include="sdk\props\displacement.cpp" />
+    <ClCompile Include="sdk\props\entity.cpp" />
+    <ClCompile Include="sdk\props\player.cpp" />
+    <ClCompile Include="sdk\props\prop_manager.cpp" />
+    <ClCompile Include="sdk\props\weapon.cpp" />
+    <ClCompile Include="sdk\qangle\qangle.cpp" />
+    <ClCompile Include="sdk\render\drawing.cpp" />
+    <ClCompile Include="sdk\render\rendering.cpp" />
+    <ClCompile Include="sdk\scaner\print.cpp" />
+    <ClCompile Include="sdk\scaner\scan.cpp" />
+    <ClCompile Include="sdk\trace\ray_tracer.cpp" />
+    <ClCompile Include="sdk\vector\vector.cpp" />
+    <ClCompile Include="sdk\vector\vector2d.cpp" />
+    <ClCompile Include="sdk\vector\vector4d.cpp" />
+    <ClCompile Include="sdk\CUtlString.cpp" />
+    <ClCompile Include="sdk\sdk.cpp" />
+    <ClCompile Include="sdk\usercmd.cpp" />
+    <ClCompile Include="sdk\weather_controller.cpp" />
+    <ClCompile Include="features\antiaim\anti_aimbot.cpp" />
+    <ClCompile Include="features\inventory\inventorychanger.cpp" />
+    <ClCompile Include="features\inventory\items.cpp" />
+    <ClCompile Include="features\inventory\kitparser.cpp" />
+    <ClCompile Include="features\legitbot\aimbot.cpp" />
+    <ClCompile Include="features\misc\misc.cpp" />
+    <ClCompile Include="features\misc\movement.cpp" />
+    <ClCompile Include="features\misc\music_player.cpp" />
+    <ClCompile Include="features\ragebot\autowall.cpp" />
+    <ClCompile Include="features\ragebot\lag_comp.cpp" />
+    <ClCompile Include="features\ragebot\prediction.cpp" />
+    <ClCompile Include="features\ragebot\rage_aimbot.cpp" />
+    <ClCompile Include="features\ragebot\resolver.cpp" />
+    <ClCompile Include="features\visuals\chams.cpp" />
+    <ClCompile Include="features\visuals\chams_hit.cpp" />
+    <ClCompile Include="features\visuals\grenade_warning.cpp" />
+    <ClCompile Include="features\visuals\grenades.cpp" />
+    <ClCompile Include="features\visuals\sound_parser.cpp" />
+    <ClCompile Include="features\inventory\parser.cpp" />
+    <ClCompile Include="menu\menu\i_menu.cpp" />
+    <ClCompile Include="features\inventory\skins.cpp" />
+    <ClCompile Include="features\misc\event_manager.cpp" />
+    <ClCompile Include="features\ragebot\knifebot.cpp" />
+    <ClCompile Include="core\hooks\client.cpp" />
+    <ClCompile Include="core\hooks\framestage.cpp" />
+    <ClCompile Include="core\hooks\painttraverse.cpp" />
+    <ClCompile Include="core\hooks\wndproc.cpp" />
+    <ClCompile Include="features\inventory\vdf_parser.cpp" />
+    <ClCompile Include="core\configs\base64.hpp" />
+    <ClCompile Include="menu\menu\menu.cpp" />
+    <ClCompile Include="menu\menu\menu_v2.cpp" />
+    <ClCompile Include="menu\gui\container\section.cpp" />
+    <ClCompile Include="menu\gui\container\tab.cpp" />
+    <ClCompile Include="menu\gui\container\window.cpp" />
+    <ClCompile Include="menu\gui\controls\button.cpp" />
+    <ClCompile Include="menu\gui\controls\checkbox.cpp" />
+    <ClCompile Include="menu\gui\controls\colorpicker.cpp" />
+    <ClCompile Include="menu\gui\controls\combobox.cpp" />
+    <ClCompile Include="menu\gui\controls\keybind.cpp" />
+    <ClCompile Include="menu\gui\controls\multibox.cpp" />
+    <ClCompile Include="menu\gui\controls\slider.cpp" />
+    <ClCompile Include="menu\input\input.cpp" />
+    <ClCompile Include="core\hooks\levelstage.cpp" />
+    <ClCompile Include="sdk\protobuf\Protobuffs.cpp" />
+    <ClCompile Include="core\lua\Clua.cpp" />
+    <ClCompile Include="core\lua\CLuaHook.cpp" />
+    <ClCompile Include="features\misc\modify_packet.cpp" />
+    <ClCompile Include="imgui\imgui_tables.cpp" />
+    <ClCompile Include="features\visuals\visuals.cpp" />
+    <ClCompile Include="features\visuals\indicators.cpp" />
+    <ClCompile Include="features\visuals\others.cpp" />
+    <ClCompile Include="features\visuals\offscreen_esp.cpp" />
+    <ClCompile Include="features\visuals\skeleton_esp.cpp" />
+    <ClCompile Include="features\visuals\event_log.cpp" />
+    <ClCompile Include="features\visuals\damage_esp.cpp" />
+    <ClCompile Include="features\netchannel\net_channel.cpp" />
+    <ClCompile Include="Resources\Shaders\PostProcessing.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="menu\setup\settings.h">
+      <Filter>engine\menu\menu-v2\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="threading\packed_heap.h">
+      <Filter>horizon\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="threading\semaphores.h">
+      <Filter>horizon\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="threading\shared_mutex.h">
+      <Filter>horizon\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="threading\threading.h">
+      <Filter>horizon\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="threading\atomic_lock.h">
+      <Filter>horizon\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="threading\MinHook.h">
+      <Filter>horizon\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="threading\mutex.h">
+      <Filter>horizon\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h" />
+    <ClInclude Include="imgui\imstb_rectpack.h" />
+    <ClInclude Include="imgui\imstb_textedit.h" />
+    <ClInclude Include="imgui\imstb_truetype.h" />
+    <ClInclude Include="imgui\imgui_impl_dx9.h" />
+    <ClInclude Include="minhook\buffer.h" />
+    <ClInclude Include="minhook\minhook.h" />
+    <ClInclude Include="minhook\trampoline.h" />
+    <ClInclude Include="minhook\hde\hde32.h" />
+    <ClInclude Include="minhook\hde\hde64.h" />
+    <ClInclude Include="minhook\hde\pstdint.h" />
+    <ClInclude Include="minhook\hde\table32.h" />
+    <ClInclude Include="minhook\hde\table64.h" />
+    <ClInclude Include="core\configs\configs.h" />
+    <ClInclude Include="core\hooks\hooked.hpp" />
+    <ClInclude Include="core\source.hpp" />
+    <ClInclude Include="sdk\math\math.hpp" />
+    <ClInclude Include="sdk\matrix\matrix.hpp" />
+    <ClInclude Include="sdk\memory\cutl_block_mem.hpp" />
+    <ClInclude Include="sdk\memory\cutl_fixed_mem.hpp" />
+    <ClInclude Include="sdk\memory\CUtlMemory.hpp" />
+    <ClInclude Include="sdk\props\displacement.hpp" />
+    <ClInclude Include="sdk\props\entity.hpp" />
+    <ClInclude Include="sdk\props\player.hpp" />
+    <ClInclude Include="sdk\props\prop_manager.hpp" />
+    <ClInclude Include="sdk\props\weapon.hpp" />
+    <ClInclude Include="sdk\qangle\qangle.hpp" />
+    <ClInclude Include="sdk\render\rendering.hpp" />
+    <ClInclude Include="sdk\scaner\print.hpp" />
+    <ClInclude Include="sdk\scaner\scan.hpp" />
+    <ClInclude Include="sdk\trace\ray_tracer.hpp" />
+    <ClInclude Include="sdk\vector\CUtlVector.hpp" />
+    <ClInclude Include="sdk\vector\vector.hpp" />
+    <ClInclude Include="sdk\vector\vector2d.hpp" />
+    <ClInclude Include="sdk\vector\vector4d.hpp" />
+    <ClInclude Include="sdk\CUtlString.hpp" />
+    <ClInclude Include="sdk\sdk.hpp" />
+    <ClInclude Include="sdk\singleton.hpp" />
+    <ClInclude Include="sdk\usercmd.hpp" />
+    <ClInclude Include="sdk\weather_controller.hpp" />
+    <ClInclude Include="features\antiaim\anti_aimbot.hpp" />
+    <ClInclude Include="features\inventory\inventorychanger.h" />
+    <ClInclude Include="features\inventory\items.h" />
+    <ClInclude Include="features\inventory\kitparser.h" />
+    <ClInclude Include="features\legitbot\aimbot.hpp" />
+    <ClInclude Include="features\misc\misc.hpp" />
+    <ClInclude Include="features\misc\movement.hpp" />
+    <ClInclude Include="features\misc\music_player.hpp" />
+    <ClInclude Include="features\ragebot\autowall.hpp" />
+    <ClInclude Include="features\ragebot\lag_comp.hpp" />
+    <ClInclude Include="features\ragebot\prediction.hpp" />
+    <ClInclude Include="features\ragebot\rage_aimbot.hpp" />
+    <ClInclude Include="features\ragebot\resolver.hpp" />
+    <ClInclude Include="features\visuals\chams.hpp" />
+    <ClInclude Include="features\visuals\chams_hit.h" />
+    <ClInclude Include="features\visuals\grenade_warning.h" />
+    <ClInclude Include="features\visuals\grenades.hpp" />
+    <ClInclude Include="features\visuals\sound_parser.hpp" />
+    <ClInclude Include="features\inventory\parser.h" />
+    <ClInclude Include="menu\menu\i_menu.hpp" />
+    <ClInclude Include="core\horizon.hpp" />
+    <ClInclude Include="sdk\scaner\vcall.hpp" />
+    <ClInclude Include="features\inventory\skins.h" />
+    <ClInclude Include="core\hooks\detour\detours.h" />
+    <ClInclude Include="core\hooks\vmt\vmt_swap.hpp">
+      <Filter>horizon\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="features\inventory\vdf_parser.hpp" />
+    <ClInclude Include="sdk\vector\core.hpp">
+      <Filter>valve\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\configs\json.hpp" />
+    <ClInclude Include="sdk\icons\visitor.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\icons\hooge.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\icons\i_menu_texture.h" />
+    <ClInclude Include="sdk\icons\icon_font.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\icons\icons.hpp" />
+    <ClInclude Include="menu\menu\menu.hpp" />
+    <ClInclude Include="menu\menu\menu_v2.h" />
+    <ClInclude Include="menu\gui\container\section.h" />
+    <ClInclude Include="menu\gui\container\tab.h" />
+    <ClInclude Include="menu\gui\container\window.h" />
+    <ClInclude Include="menu\gui\controls\button.h" />
+    <ClInclude Include="menu\gui\controls\checkbox.h" />
+    <ClInclude Include="menu\gui\controls\colorpicker.h" />
+    <ClInclude Include="menu\gui\controls\combobox.h" />
+    <ClInclude Include="menu\gui\controls\keybind.h" />
+    <ClInclude Include="menu\gui\controls\multibox.h" />
+    <ClInclude Include="menu\gui\controls\slider.h" />
+    <ClInclude Include="menu\gui\element.h" />
+    <ClInclude Include="menu\input\input.h" />
+    <ClInclude Include="sdk\steam\isteamapplist.h" />
+    <ClInclude Include="sdk\steam\isteamapps.h" />
+    <ClInclude Include="sdk\steam\isteamappticket.h" />
+    <ClInclude Include="sdk\steam\isteamclient.h" />
+    <ClInclude Include="sdk\steam\isteamcontroller.h" />
+    <ClInclude Include="sdk\steam\isteamfriends.h" />
+    <ClInclude Include="sdk\steam\isteamgamecoordinator.h" />
+    <ClInclude Include="sdk\steam\isteamgameserver.h" />
+    <ClInclude Include="sdk\steam\isteamgameserverstats.h" />
+    <ClInclude Include="sdk\steam\isteamhtmlsurface.h" />
+    <ClInclude Include="sdk\steam\isteamhttp.h" />
+    <ClInclude Include="sdk\steam\isteaminventory.h" />
+    <ClInclude Include="sdk\steam\isteammasterserverupdater.h" />
+    <ClInclude Include="sdk\steam\isteammatchmaking.h" />
+    <ClInclude Include="sdk\steam\isteammusic.h" />
+    <ClInclude Include="sdk\steam\isteammusicremote.h" />
+    <ClInclude Include="sdk\steam\isteamnetworking.h" />
+    <ClInclude Include="sdk\steam\isteamparentalsettings.h" />
+    <ClInclude Include="sdk\steam\isteamps3overlayrenderer.h" />
+    <ClInclude Include="sdk\steam\isteamremotestorage.h" />
+    <ClInclude Include="sdk\steam\isteamscreenshots.h" />
+    <ClInclude Include="sdk\steam\isteamugc.h" />
+    <ClInclude Include="sdk\steam\isteamuser.h" />
+    <ClInclude Include="sdk\steam\isteamuserstats.h" />
+    <ClInclude Include="sdk\steam\isteamutils.h" />
+    <ClInclude Include="sdk\steam\isteamvideo.h" />
+    <ClInclude Include="sdk\steam\matchmakingtypes.h" />
+    <ClInclude Include="sdk\steam\steam_api.h" />
+    <ClInclude Include="sdk\steam\steam_api_flat.h" />
+    <ClInclude Include="sdk\steam\steam_api_internal.h" />
+    <ClInclude Include="sdk\steam\steam_gameserver.h" />
+    <ClInclude Include="sdk\steam\steamclientpublic.h" />
+    <ClInclude Include="sdk\steam\steamencryptedappticket.h" />
+    <ClInclude Include="sdk\steam\steamhttpenums.h" />
+    <ClInclude Include="sdk\steam\steamps3params.h" />
+    <ClInclude Include="sdk\steam\steamtypes.h" />
+    <ClInclude Include="sdk\steam\steamuniverse.h" />
+    <ClInclude Include="sdk\protobuf\Messages.h" />
+    <ClInclude Include="sdk\protobuf\pbwrap.hpp" />
+    <ClInclude Include="sdk\protobuf\Protobuffs.h" />
+    <ClInclude Include="sdk\protobuf\ProtoField.h" />
+    <ClInclude Include="sdk\protobuf\ProtoWriter.h" />
+    <ClInclude Include="core\lua\Clua.h" />
+    <ClInclude Include="core\lua\CLuaHook.h" />
+    <ClInclude Include="core\lua\lauxlib.h" />
+    <ClInclude Include="core\lua\lua.h" />
+    <ClInclude Include="core\lua\lua.hpp" />
+    <ClInclude Include="core\lua\luaconf.h" />
+    <ClInclude Include="core\lua\lualib.h" />
+    <ClInclude Include="core\lua\menu_item.h" />
+    <ClInclude Include="core\lua\singleton.h" />
+    <ClInclude Include="core\lua\sol.hpp" />
+    <ClInclude Include="sdk\icons\screenshot_sound.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\icons\bell.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\protect\vmpsdk.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\protect\os.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\protect\optional.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\protect\auto.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\notify\notify.h" />
+    <ClInclude Include="features\misc\modify_packet.h" />
+    <ClInclude Include="sdk\notify\tinyformat.h" />
+    <ClInclude Include="features\visuals\visuals.hpp" />
+    <ClInclude Include="features\netchannel\net_channel.h" />
+    <ClInclude Include="features\shaders\Shader\Build\blur_x.h" />
+    <ClInclude Include="features\shaders\Shader\Build\blur_y.h" />
+    <ClInclude Include="features\shaders\Shader\Build\chromatic_aberration.h" />
+    <ClInclude Include="features\shaders\Shader\Build\default_vs.h" />
+    <ClInclude Include="features\shaders\Shader\Build\monochrome.h" />
+    <ClInclude Include="Resources\Shaders\Build\blur_x.h" />
+    <ClInclude Include="Resources\Shaders\Build\blur_y.h" />
+    <ClInclude Include="Resources\Shaders\Build\chromatic_aberration.h" />
+    <ClInclude Include="Resources\Shaders\Build\default_vs.h" />
+    <ClInclude Include="Resources\Shaders\Build\monochrome.h" />
+    <ClInclude Include="Resources\Shaders\PostProcessing.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui\freetype\autogen.sh" />
+    <None Include="imgui\freetype\ChangeLog" />
+    <None Include="imgui\freetype\ChangeLog.20" />
+    <None Include="imgui\freetype\ChangeLog.21" />
+    <None Include="imgui\freetype\ChangeLog.22" />
+    <None Include="imgui\freetype\ChangeLog.23" />
+    <None Include="imgui\freetype\ChangeLog.24" />
+    <None Include="imgui\freetype\ChangeLog.25" />
+    <None Include="imgui\freetype\ChangeLog.26" />
+    <None Include="imgui\freetype\ChangeLog.27" />
+    <None Include="imgui\freetype\ChangeLog.28" />
+    <None Include="imgui\freetype\configure" />
+    <None Include="imgui\freetype\Jamfile" />
+    <None Include="imgui\freetype\Jamrules" />
+    <None Include="imgui\freetype\Makefile" />
+    <None Include="imgui\freetype\modules.cfg" />
+    <None Include="imgui\freetype\README" />
+    <None Include="imgui\freetype\README.git" />
+    <None Include="imgui\freetype\version.sed" />
+    <None Include="imgui\freetype\vms_make.com" />
+    <None Include="sdk\steam\steam_api.json" />
+    <None Include="sdk\steam\steam_api_interop.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="imgui\freetype\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="include\lib\detours.lib" />
+    <Library Include="include\lib\luajit.lib" />
+    <Library Include="core\lua\Lua.lib" />
+    <Library Include="core\lua\lua53.lib" />
+  </ItemGroup>
+</Project>
